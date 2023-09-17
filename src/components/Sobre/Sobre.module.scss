@@ -1,0 +1,56 @@
+.divCard {
+    max-width: 1200px;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: none;
+}
+
+.missao{
+    font-size: unset;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 0rem;
+}
+
+.missaoTxt {
+    font-size: large;
+    color: #2c2c2c;
+    font-weight: 400;
+    font-family: system-ui;
+    font-style: italic;
+}
+
+.divValores {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10em;
+}
+
+.valores {
+    color: #2c2c2c;
+    font-size: large;
+    font-weight: 500;
+    display: list-item;
+    list-style: circle;
+    list-style-position: inside;
+    
+}
+
+.imgAES {
+    display: block;
+    padding: 0 !important;
+    margin: 0% !important;
+    justify-content: center;
+    align-items: center;
+    max-height: 80% !important;
+    min-height:80% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-top: 40px !important;
+
+}

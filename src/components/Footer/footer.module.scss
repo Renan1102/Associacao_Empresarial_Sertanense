@@ -1,0 +1,100 @@
+.caixa_footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    //height: 110px;
+    background-color: #2B2B24;
+    display: flex;
+    flex-direction: column;
+    color: rgb(228, 224, 224);
+}
+
+.buton_log {
+    margin-left: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
+    width: 10vh;
+    border: 2px solid rgb(228, 224, 224);
+    cursor: pointer;
+    position: relative;
+    bottom:39px;
+}
+
+.buton_log:hover {
+    background-color: white;
+    color: red;
+}
+
+.aa {
+    color: rgb(205, 201, 201);
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    font-size: clamp(0.7rem, 1.4vw, 0.9rem);
+}
+
+.sociais {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    svg{
+        position: relative;
+        right: 13px;
+    }
+}
+
+.ico {
+    margin-left: 5vh;
+    cursor: pointer;
+    font-size: clamp(2.2rem, 3.3vw, 2.6rem);
+}
+
+.but {
+    text-decoration: none;
+    color: rgb(205, 201, 201);
+}
+
+.but:hover {
+    color: #0FBC71;
+}
+
+.infos{
+    display: flex;
+    justify-content: center;
+}
+
+
+.parag{
+    color: rgba(205, 201, 201, 0.668);
+    height: 2vh;
+    margin-left: 2vh;
+    cursor: pointer;
+    font-size: clamp(0.9rem, 1.2vw, 1rem);
+    background: none;
+    border: none;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .ico{
+    font-size: clamp(2rem, 5vw, 2.5rem);
+    }
+    .aa{
+        font-size: clamp(0.8rem, 2.2vw, 1.4rem);
+    }
+}
+
+
+.teste{
+    display: flex;
+    padding: 0 15px ;
+    color: rgba(205, 201, 201, 0.668);
+}

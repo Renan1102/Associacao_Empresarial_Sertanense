@@ -1,0 +1,198 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body{
+  background-color:  #FFFFFF;
+}
+
+.imag {
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://www.faq-mac.com/wp-content/uploads/2015/03/com.apple_.desktop.admin_.jpg);
+}
+.imag2 {
+  background-color: #cccccc;
+  overflow: auto;
+  height: 110vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://www.faq-mac.com/wp-content/uploads/2015/03/com.apple_.desktop.admin_.jpg);
+}
+
+.alinha{
+  
+}
+
+.formin {
+  background-color: rgba(10, 10, 10, 0.5);
+  width: 60vh;
+  height: auto;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  border: solid 2px black;
+}
+.inp {
+  text-align: left;
+  width: 80%;
+  align-items: center;
+  margin-bottom: 1vh;
+  
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  padding-right: 10vh;
+  border-radius: 8px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  
+}
+
+.sub1 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 10vh;
+  width: 50%;
+  
+  margin-left: 25%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 23px;
+  margin-bottom: 1vh;
+}
+.sub2 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 2vh;
+  width: 50%;
+  height: 6%;
+  margin-left: 25%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 23px;
+}
+
+.reg {
+  color: rgb(121, 68, 8);
+  cursor: pointer;
+  margin-top: 30px;
+  width: 100%;
+  height: 7%;
+  background-color: rgba(243, 223, 186, 0.7);
+  border-radius: 8px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 23px;
+  text-decoration: none;
+  border: solid 2px black;
+}
+.labe {
+  font-size: 23px;
+  
+}
+
+.topo {
+  margin-bottom: 7vh;
+  font-size: clamp(2.3rem, 3.4vw, 4rem);
+}
+.mens {
+  color: rgb(255, 0, 0);
+  font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+}
+
+.log {
+  font-size: 17px;
+  
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.log:hover {
+  color: red;
+}
+.logg {
+  margin-left: 25vh;
+  text-decoration: none;
+}
+.logg a{
+  text-decoration: none;
+}
+.l1 {
+  margin-top: 3vh;
+  font-size: clamp(5rem, 6.5vw, 8rem);
+  cursor: pointer;
+}
+.l {
+  
+  margin-left: 2vh;
+  font-size: 30px;
+}
+.ca {
+  
+}
+
+/*tamanhos da tela*/
+@media screen and (min-width: 577px) {
+  .formin {
+    margin-left: 40%;
+  }
+  .labe {
+    font-size: clamp(1.5rem, 2vw, 3.5rem);
+    
+  }
+  
+}
+
+/*tamanhos da tela*/
+@media screen and (max-width: 576px) {
+  .formin {
+    margin: 1vh;
+    width: 97%;
+    height: 97%;
+    overflow: auto;
+  }
+
+  .inp {
+    padding-right: 25%;
+    font-size: 17px;
+  }
+
+  .sub1 {
+    font-size: 25px;
+  }
+  .labe {
+    font-size: clamp(1.5rem, 6vw, 3.5rem);
+    
+  }
+
+  .mens {
+    
+    font-size: clamp(1.2rem, 3.8vw, 2rem);
+  }
+  .topo {
+    margin-bottom: 7vh;
+    font-size: clamp(2.3rem, 8vw, 4rem);
+  }
+
+  .l {
+    font-size: clamp(1.5rem, 7vw, 3.2rem);
+  }
+  .log{
+    font-size: clamp(1.2rem, 4vw, 2rem);
+  }
+}

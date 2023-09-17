@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    width: 600px;
+    border: 1px black solid;
+    border-radius: 12px;
+    margin: 15px auto;
+    padding: 8px;
+
+    @media (max-width: 768px){
+        margin: 15px;
+        width:auto;
+    }
+
+    &Body{
+        display: flex;
+    }
+
+    .alterCardBtn{
+        button{
+            background-color: aliceblue;
+            border: none;
+            margin: 2px;
+            padding: 3px;
+        }
+
+        button:hover{
+            background-color: rgb(199, 224, 245);
+            transition: 0.5s;
+        }
+
+        img{
+            width: 12px;
+            height: 12px;
+        }
+    }
+}
