@@ -7,8 +7,8 @@ A implementação inclui funcionalidades de cadastro e login para empresas, alé
 
 ## Construção com:
 
-- Front-end: React JS, JavaScript, Html, CSS;
-- Back-end: JavaScript, Next Js, NextAuth, crypto;
+- Front end: React JS, JavaScript, Html, CSS;
+- Back end: JavaScript, Next Js, NextAuth, crypto;
 - Banco de Dados: MongoDB, Cloudinary;
 
 ## Demonstração:
