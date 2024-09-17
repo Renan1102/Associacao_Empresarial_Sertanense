@@ -1,6 +1,6 @@
 # Website Associação Empresarial Sertanense
 
-## [Clique aqui para ver <-](https://pages.github.com/](https://associacao-empresarial-sertanense-2bqt.vercel.app/))
+## [Clique aqui para ver <-](https://associacao-empresarial-sertanense-2bqt.vercel.app/))
 
 ## Descrição do Projeto
 
